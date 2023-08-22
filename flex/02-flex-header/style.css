@@ -1,6 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 4px;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -9,6 +23,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  text-align: center;
 }
 
 ul {
@@ -22,4 +37,36 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+/* My Answer */
+/* .left-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left-links ul {
+  display: flex;
+  gap: 12px;
+
+}
+
+.left-links ul li {
+  flex: 1;
+}
+
+.right-links{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-links ul {
+  display: flex;
+  gap: 12px;
+} */
+
+ul {
+  display: flex;
+  gap: 8px;
 }

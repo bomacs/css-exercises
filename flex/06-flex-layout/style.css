@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -24,4 +30,56 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+/* Answer */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  gap: 12px;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #666;  
+  text-decoration: none;
+}
+
+
+button {
+  padding: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.header,.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.header {
+  margin-bottom: auto;
+}
+
+.footer {
+  background-color: #eeeeee;
+  margin-top: auto;
 }
